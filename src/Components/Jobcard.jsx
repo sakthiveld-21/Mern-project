@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function JobCard({ job }) {
+function Jobcard({ job }) {
   return (
     <div className="job-card">
       <span className="job-type">{job.type}</span>
@@ -19,4 +19,4 @@ function JobCard({ job }) {
   );
 }
 
-export default JobCard;
+export default Jobcard;
