@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import jobs from "../data";
+import jobs from "../ Data";
 import JobCard from "../Components/Jobcard";
 
 function Home() {
