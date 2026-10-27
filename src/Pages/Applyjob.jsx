@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
-import jobs from "../Data";
+import jobs from "../data";
 
 function ApplyJob() {
   const { id } = useParams();

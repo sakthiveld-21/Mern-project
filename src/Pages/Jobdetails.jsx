@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import jobs from "../Data";
+import jobs from "../data";
 
 function JobDetails() {
   const { id } = useParams();

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import jobs from "../Data.js";
-import Jobcard from "../Components/Jobcard.jsx";
-
+import jobs from "../data";
+import JobCard from "../Components/Jobcard";
 
 function Home() {
   return (
@@ -22,8 +21,7 @@ function Home() {
 
         <div className="job-grid">
           {jobs.slice(0, 3).map((job) => (
-            // <JobCard key={job.id} job={job} />
-           <Jobcard/>
+            <JobCard key={job.id} job={job} />
           ))}
         </div>
       </section>
@@ -31,4 +29,4 @@ function Home() {
   );
 }
 
-export default Home;    
+export default Home;
